@@ -1,0 +1,14 @@
+.img-perfil {
+    width: 150px;
+    border-radius: 50%;
+}
+ 
+li {
+    list-style-type: none;
+}
+
+.icon-social {
+    width: 25px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
