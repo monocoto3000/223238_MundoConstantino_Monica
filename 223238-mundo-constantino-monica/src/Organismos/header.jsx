@@ -39,7 +39,7 @@ export default function Header() {
     }, [screenSize])
     function size() {
         console.log(window.innerWidth)
-        if (screenSize.width < "770") {
+        if (screenSize.width < "1250") {
             return "column"
         } else {
             return "row"
@@ -66,11 +66,19 @@ export default function Header() {
                 <div>
                     <Grid container spacing={1} direction={size()}>
                         <Grid item xs={4}>
-                            <FotoPerfil img={FotodePerfil} />
                             <Cards
                                 titulo="Mónica Mundo Constantino"
-                                subtitulo="Ingeniera en Desarrollo de Software"
-                                contenido="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget lacinia ex. In id dolor non mi blandit aliquet. Pellentesque eu vestibulum purus. Sed leo velit, cursus sit amet libero pellentesque, tempor lacinia erat."
+                                subtitulo="Ingenieria en desarrollo de Software"
+                            />
+                            <FotoPerfil
+                                img={FotodePerfil}
+                                nacimiento="📅 31 de Febrero del 2027"
+                                civil="❤️ Casado"
+                                nacionalidad="📍México"
+                                edad="🐣72 años"
+                            />
+                            <Cards
+                                contenido={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget lacinia ex. In id dolor non mi blandit aliquet. Pellentesque eu vestibulum purus. Sed leo velit, cursus sit amet libero pellentesque, tempor lacinia erat."}
                             />
                         </Grid>
                         <Divisor></Divisor>
@@ -107,8 +115,8 @@ export default function Header() {
                             <Cards
                                 subtitulo="Idiomas"
                                 contenido={<>
-                                    <Chips chip="Ingles - Nivel C1 ★★★★★" />
-                                    <Chips chip="Fraces ★★☆☆☆" />
+                                    <Chips chip="Ingles - Nivel B2 ★★★★☆" />
+                                    <Chips chip="Frances ★★☆☆☆" />
                                     <Chips chip="Español ★★★★★" />
                                 </>}
                             />
@@ -117,18 +125,18 @@ export default function Header() {
                         <Grid item>
                             <div style={{ display: "block" }}>
                                 <Cards
-                                titulo="Contacto"
-                                contenido={<Sociales 
-                                    facebook={Facebook} 
-                                    facebookUser="FacebookUser"
-                                    github={GitHub}
-                                    githubUser="GitHubUser"
-                                    instagram={Instagram}
-                                    instagramUser="InstagramUser"
-                                    linkedin={LinkedIn}
-                                    linkedinUser="LinkedInUser"
-                                    twitter={Twitter}
-                                    twitterUser="TwitterUser"
+                                    titulo="Contacto"
+                                    contenido={<Sociales
+                                        facebook={Facebook}
+                                        facebookUser="FacebookUser"
+                                        github={GitHub}
+                                        githubUser="GitHubUser"
+                                        instagram={Instagram}
+                                        instagramUser="InstagramUser"
+                                        linkedin={LinkedIn}
+                                        linkedinUser="LinkedInUser"
+                                        twitter={Twitter}
+                                        twitterUser="TwitterUser"
                                     ></Sociales>}
                                 />
                             </div>

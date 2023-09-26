@@ -4,11 +4,11 @@ import "./styles.css"
 export default function Sociales(props) {
     return (
         <>
-        <img className='icon-social' src={props.facebook} /><a> {props.facebookUser}</a><br/>
-        <img className='icon-social' src={props.github} /><a> {props.githubUser}</a><br/>
-        <img className='icon-social' src={props.instagram} /><a> {props.instagramUser}</a><br/>
-        <img className='icon-social' src={props.linkedin} /><a> {props.linkedinUser}</a><br/>
-        <img className='icon-social' src={props.twitter} /><a> {props.twitterUser}</a><br/>
+        <a href='https://www.facebook.com/?locale=es_LA' target="_blank"><img className='icon-social' src={props.facebook} /><a> {props.facebookUser}</a><br/></a>
+        <a href='https://github.com/monocoto3000' target="_blank"><img className='icon-social' src={props.github} /><a> {props.githubUser}</a><br/></a>
+        <a href='https://www.instagram.com/' target="_blank"><img className='icon-social' src={props.instagram} /><a> {props.instagramUser}</a><br/></a>
+        <a href='https://mx.linkedin.com/' target="_blank"><img className='icon-social' src={props.linkedin} /><a> {props.linkedinUser}</a><br/></a>
+        <a href='https://twitter.com/?lang=es' target="_blank"><img className='icon-social' src={props.twitter} /><a> {props.twitterUser}</a><br/></a>
         </>
     )
 }

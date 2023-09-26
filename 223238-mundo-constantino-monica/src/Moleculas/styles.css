@@ -1,3 +1,32 @@
 .card {
     margin: 1em;
 }
+
+p, h2, h4 {
+    color: black;
+} 
+
+h4 {
+    color: #219cdf; 
+    background-color: rgba(214, 239, 255, 0.382); 
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+h2 {
+    background-color: #ffd65d;
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
+
+h2:empty {
+    background-color: white;
+    padding: 0;
+}
+
+h4:empty {
+    background-color: white;
+    padding: 0;
+}
+

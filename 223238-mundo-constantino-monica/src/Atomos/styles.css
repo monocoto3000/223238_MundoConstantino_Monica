@@ -1,14 +1,59 @@
+/* PERFIL */
 .img-perfil {
-    width: 150px;
-    border-radius: 50%;
+    width: 180px;
+    border-radius: 100%;
 }
- 
-li {
-    list-style-type: none;
+
+.perfil {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
 }
+
+.contenedor {
+    text-align: right;
+}
+
+.card {
+    margin: 1em;
+}
+
+
+/* SOCIALES */
 
 .icon-social {
     width: 25px;
     vertical-align: middle;
     margin-bottom: 10px;
+}
+
+/* ETIQUETAS  */
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* CHIP */
+
+
+.chip {
+    transition: 0.1s;
+}
+
+.chip:hover {
+    background-color: #ffd65d;
+    border-color: #bd9313;
+}
+
+/* DIVIDER */
+
+.divider {
+    background: #ffd65d;
 }
