@@ -97,7 +97,7 @@ export default function Header() {
                             />
                         </Grid>
                         <Divisor></Divisor>
-                        <Grid item xs={4}>
+                        <Grid item xs={3}>
                             <Cards
                                 titulo="Formación Académica"
                                 subtitulo="Titulación"
@@ -137,6 +137,7 @@ export default function Header() {
                                         linkedinUser="LinkedInUser"
                                         twitter={Twitter}
                                         twitterUser="TwitterUser"
+                                        correo="⭐ Correo@gmail.com"
                                     ></Sociales>}
                                 />
                             </div>

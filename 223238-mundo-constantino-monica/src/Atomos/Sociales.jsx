@@ -9,6 +9,7 @@ export default function Sociales(props) {
         <a href='https://www.instagram.com/' target="_blank"><img className='icon-social' src={props.instagram} /><a> {props.instagramUser}</a><br/></a>
         <a href='https://mx.linkedin.com/' target="_blank"><img className='icon-social' src={props.linkedin} /><a> {props.linkedinUser}</a><br/></a>
         <a href='https://twitter.com/?lang=es' target="_blank"><img className='icon-social' src={props.twitter} /><a> {props.twitterUser}</a><br/></a>
+        <a href='https://www.google.com/intl/es-419/gmail/about/' target="_blank">{props.correo}<br/></a>
         </>
     )
 }
